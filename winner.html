@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Winner</title>
+	<link rel="apple-touch-icon" sizes="76x76" href="src/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="src/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="src/favicon/favicon-16x16.png">
+	<link rel="manifest" href="src/favicon/site.webmanifest">
+	<link rel="mask-icon" href="src/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<img class="logo" src="src/images/logo.png" alt="logo">
+<div class="wrapper winner">
+
+	<h1>We have a winner</h1>
+	<div class="trophy">
+		<img src="src/images/trophy.svg" alt="trophy">
+		<img class="star" src="src/images/star.svg" alt="trophy">
+		<div class="shield-winner"></div>
+		<div class="name-winner"></div>
+	</div>
+
+	<a class="button font-headline margin" href="index.html">Play again?</a>
+</div>
+
+
+<!--Firework Credis to Scott Schiller @ http://www.schillmania.com/-->
+<div id="fireworks-template">
+	<div id="fw" class="firework"></div>
+	<div id="fp" class="fireworkParticle"><img src="src/images/particles.gif" alt=""/></div>
+</div>
+
+<div id="fireContainer"></div>
+
+<script src="dist/winner.bundle.js"></script>
+</body>
+</html>
